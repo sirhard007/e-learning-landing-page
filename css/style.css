@@ -302,19 +302,15 @@ main .section-1{
     margin-top: 40px;
 }
 .box{
-vertical-align: middle;
-justify-content: center;
-align-items: center;
-display: block;
-
+margin: 0 auto;
 }
 .box-1{
     background-color: #153E6A;
     width: 335px;
     height: 410px;
     border-radius: 10px;
-    margin-left: 20px;
-    margin-top: 20px;
+    align-items: center;
+    margin: 20px auto;
     padding-left: 30px;
     padding-top: 20px;
     cursor: pointer;
@@ -339,8 +335,7 @@ display: block;
     width: 335px;
     height: 410px;
     border-radius: 10px;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin: 0 auto;
     padding-left: 30px;
     padding-top: 30px;
     cursor: pointer;
@@ -365,8 +360,7 @@ display: block;
     width: 335px;
     height: 410px;
     border-radius: 10px;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin: 20px auto;
     padding-left: 30px;
     padding-top: 30px;
     cursor: pointer;
