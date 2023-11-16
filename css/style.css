@@ -302,10 +302,11 @@ main .section-1{
     margin-top: 40px;
 }
 .box{
-    align-items: center;
-    display: block;
-    justify-content: center;
-    text-align: left;
+vertical-align: middle;
+justify-content: center;
+align-items: center;
+display: block;
+
 }
 .box-1{
     background-color: #153E6A;
@@ -317,6 +318,7 @@ main .section-1{
     padding-left: 30px;
     padding-top: 20px;
     cursor: pointer;
+    
 }
 .box-1 h3{
     font-size: 20px;
@@ -407,11 +409,12 @@ main .section-1{
     width: 335px;
     height: 500px;
     border-radius: 10px;
-    margin-left: 20px;
+    
     margin-top: 20px;
     padding-left: 30px;
     padding-top: 10px;
     cursor: pointer;
+    justify-content: center;
 }
 
 .box-25 h3{
@@ -668,82 +671,14 @@ main .section-1{
         text-align: center;
         margin-top: 40px;
     }
-    .box-1{
-        background-color: #153E6A;
-        width: 335px;
-        height: 410px;
-        border-radius: 10px;
-        margin-left: 20px;
-        margin-top: 20px;
-        padding-left: 30px;
-        padding-top: 20px;
-        cursor: pointer;
-    }
-    .box-1 h3{
-        font-size: 20px;
-        font-weight: 800;
-        color: white;
-        margin-top: 10px;
-    }
-    .box-1 p{
-        line-height: 30px;
-        font-size: 18px;
-        margin-top: 10px;
-        padding-right: 50px;
-        color: #ffffff80;
+
+    .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 70px;
     }
     
-    .box-2{
-        background-color: #153E6A;
-        width: 335px;
-        height: 410px;
-        border-radius: 10px;
-        margin-left: 20px;
-        margin-top: 20px;
-        padding-left: 30px;
-        padding-top: 30px;
-        cursor: pointer;
-    }
-    
-    .box-2 h3{
-        font-size: 20px;
-        font-weight: 800;
-        color: white;
-        margin-top: 10px;
-    }
-    .box-2 p{
-        line-height: 30px;
-        font-size: 18px;
-        margin-top: 10px;
-        padding-right: 50px;
-        color: #ffffff80;
-    }
-    
-    .box-3{
-        background-color: #153E6A;
-        width: 335px;
-        height: 410px;
-        border-radius: 10px;
-        margin-left: 20px;
-        margin-top: 20px;
-        padding-left: 30px;
-        padding-top: 30px;
-        cursor: pointer;
-    }
-    
-    .box-3 h3{
-        font-size: 20px;
-        font-weight: 800;
-        color: white;
-        margin-top: 10px;
-    }
-    .box-3 p{
-        line-height: 30px;
-        font-size: 18px;
-        margin-top: 10px;
-        padding-right: 50px;
-        color: #ffffff80;
-    }
     
     .students{
         margin-left: 20px;
