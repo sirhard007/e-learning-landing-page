@@ -143,6 +143,12 @@ main .section-1{
     font-size: 14px;
     cursor: pointer;
 }
+.section-2 img {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: block;
+}
 
 .pg-2{
     background-image: url(../assets/Vector\ 1.png);
@@ -155,7 +161,7 @@ main .section-1{
     font-weight: 800;
     padding: 20px;
     color: #ffffff;
-    padding-top: 80px;
+    padding-top: 70px;
 }
 .pg-2 p{
     font-size: 14px;
@@ -294,6 +300,12 @@ main .section-1{
     font-weight: 800;
     text-align: center;
     margin-top: 40px;
+}
+.box{
+    align-items: center;
+    display: block;
+    justify-content: center;
+    text-align: left;
 }
 .box-1{
     background-color: #153E6A;
@@ -446,6 +458,8 @@ main .section-1{
 
 .card{
     display: flex;
+    text-align: left;
+    justify-content: center;
 
 }
 .box-26{
